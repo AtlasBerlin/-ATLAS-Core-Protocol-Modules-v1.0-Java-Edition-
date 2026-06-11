@@ -1,0 +1,47 @@
+================================================================================
+            ATLAS ARCADE PROTOKOLL - SOFTWARE & UTILITY SUITE
+================================================================================
+Projekt-ID:  Atlas 1-3
+Architekt:   Nicky Leonora  (Systems Analyst)
+Core-Basis:  Java Runtime 21 & Asynchrones Python (Vollständig portabel)
+Sicherheit:  Harte Regex-Schranke gegen Injections & Exploits (No-Admin)
+================================================================================
+
+DIESES PAKET ENTHÄLT 3 KOMPONENTEN:
+1. RetroCryptoDuel.exe        -> Das Hauptspiel im C64-ASCII-Look
+2. AtlasArcadePortscanner.exe -> Utility zum schnellen Finden freier Ports
+3. AtlasArcadeChat.exe        -> Sicherer P2P-Klassenchat für das Subnetz
+
+--------------------------------------------------------------------------------
+1. ANLEITUNG: GRUPPENCHAT (AtlasArcadeChat)
+--------------------------------------------------------------------------------
+- Schritt 1: Starte die Datei und gib deinen Wunschnamen im Profil-Setup ein.
+- Schritt 2: Wähle, ob du den Chat-Server hosten oder beitreten willst.
+- SERVER-HOST: IPv4-Adresse (via 'ipconfig') und Wunschport eingeben. Schreib 
+  diese Daten deinen Klassenkameraden auf einen Zettel.
+- CLIENT-PEER: Gib [IP-Adresse-Host]:[Port] deines Klassenkameraden ein.
+- INJECTION-SCHUTZ: Alle Eingaben laufen durch eine Regex-Sicherheits-Schranke.
+  Bösartige Sonderzeichen (', ", ;, <, >) werden zur Systemsicherung gefiltert.
+
+--------------------------------------------------------------------------------
+2. ANLEITUNG: PORT-ANALYSE (AtlasArcadePortscanner)
+--------------------------------------------------------------------------------
+- Starte das Tool direkt auf deinem Laptop.
+- Der Scanner prüft im Hintergrund blitzschnell den unprivilegierten Bereich.
+- Nach exakt 10 freien Treffern bricht das Tool autonom ab, um RAM und CPU
+  zu schonen, und schreibt den Report als 'ergebnis.txt' auf deinen Desktop.
+- Nutze diese Ports, falls die Standard-Kanäle blockiert sind.
+
+--------------------------------------------------------------------------------
+3. ANLEITUNG: NETZWERK-DUELL (RetroCryptoDuel)
+--------------------------------------------------------------------------------
+- Maschine A (HOST): Starten, Eingabemaske LEER lassen und mit ENTER bestätigen.
+  Das System bindet sich an das Nicky-Protokoll und wartet auf Port 666.
+- Maschine B (PEER): Starten, IP-Adresse von Maschine A eingeben.
+- FAILSAFE-LOGIK: Sollte deine Windows-Firewall Port 666 blockieren, springt
+  automatisch das "ATLAS FALLBACK-PORT PROTOKOLL" an. Trage dort manuell eine
+  freie Gasse ein (z. B. einen Port aus dem Scanner-Report).
+
+================================================================================
+                 UP AND ATTACK! DAS SYSTEM IST SCHARFGESCHALTET.
+================================================================================
