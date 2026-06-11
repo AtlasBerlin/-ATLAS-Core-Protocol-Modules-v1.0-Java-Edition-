@@ -1,2 +1,21 @@
-# -ATLAS-Core-Protocol-Modules-v1.0-Java-Edition-
-Core infrastructure framework by ATLAS UG (i.G.). Provides advanced network communication, open-source interoperability, multi-client socket streaming, and autonomous port-scanning utilities for secure decentralized systems. Made in Berlin.
+Developed by ATLAS UG (i.G.) as a core framework for advanced network communication,
+interoperability, and secure socket architectures.
+
+## 🛠️ Included Core Modules
+
+1. **Retro_Crypto_Duel**
+- An open-source, retro-inspired dual-protocol communication grid.
+- Features custom 6-character UI sanitation and strict parameter verification.
+
+2. **AtlasArcadePortscanner**
+- An autonomous network routine designed for internal port verification and latency tracking.
+- Built with defensive socket timeout handling.
+
+3. **ATLAS_CHAT**
+- A highly performant, multi-client group communication module.
+- Features raw ANSI escape sequence color-routing for seamless stream clarity.
+
+## 🛡️ Integration & Development Notice
+This repository contains the pure, uncompiled Java source code (`.java`). All internal school-related metadata and commercial deployment variables have been redacted for public security.
+
+*In Code We Trust. Everything Else Must Be Verified.*
