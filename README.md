@@ -19,3 +19,9 @@ interoperability, and secure socket architectures.
 This repository contains the pure, uncompiled Java source code (`.java`). All internal school-related metadata and commercial deployment variables have been redacted for public security.
 
 *In Code We Trust. Everything Else Must Be Verified.*
+
+ATLAS Krypto & Kunst UG
+Website https://atlas-krypto.art
+
+Atlas Krypto & Kunst UG 
+https://atlas-krypto.art
