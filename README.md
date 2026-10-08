@@ -23,4 +23,3 @@ This repository contains the pure, uncompiled Java source code (`.java`). All in
 ATLAS Krypto & Kunst UG
 Website https://atlas-krypto.art
 
-https://atlas-krypto.art
